@@ -1,0 +1,113 @@
+site_name: Flutter Mastery Path
+site_description: A structured Flutter course from first widget to published app — layout and constraints, state management, navigation, testing, animations, platform channels and the rendering pipeline — with examples verified by real test runs.
+site_url: https://sigilipelli.github.io/flutter-mastery-path/
+repo_url: https://github.com/sigilipelli/flutter-mastery-path
+repo_name: flutter-mastery-path
+
+theme:
+  name: material
+  favicon: assets/favicon.svg
+  custom_dir: docs/overrides
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: light blue
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: light blue
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - toc.follow
+    - content.code.copy
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/progress-tracker.css
+
+extra_javascript:
+  - javascripts/progress-tracker.js
+
+nav:
+  - Home: index.md
+  - Privacy Policy: privacy.md
+  - License: license.md
+  - "Level 1 · Entry":
+      - Overview: level-1/index.md
+      - "01 · What Flutter Is: Engine, Widgets & One Codebase": level-1/01-what-flutter-is.md
+      - "02 · Setup, flutter create & Project Anatomy": level-1/02-setup-first-app.md
+      - "03 · Widgets, build() & Composition": level-1/03-widgets-composition.md
+      - "04 · Layout: Constraints Go Down, Sizes Go Up": level-1/04-layout-constraints.md
+      - "05 · StatefulWidget, setState & the State Lifecycle": level-1/05-stateful-widgets.md
+      - "06 · Text Input, Forms & Validation": level-1/06-forms-input.md
+      - "07 · Lists, Scrolling & Keys": level-1/07-lists-keys.md
+      - "08 · Material 3 Theming": level-1/08-theming.md
+      - "09 · Assets, Images & Fonts": level-1/09-assets.md
+      - "10 · Project — A Tip Splitter with Widget Tests": level-1/10-project-tip-splitter.md
+  - "Level 2 · Intermediate":
+      - Overview: level-2/index.md
+      - "01 · Navigation: push, pop & Returning Results": level-2/01-navigator.md
+      - "02 · Declarative Routing with go_router": level-2/02-go-router.md
+      - "03 · Lifting State & InheritedWidget": level-2/03-inherited-widget.md
+      - "04 · Provider & ChangeNotifier": level-2/04-provider.md
+      - "05 · Riverpod": level-2/05-riverpod.md
+      - "06 · Async UI: FutureBuilder & StreamBuilder": level-2/06-async-ui.md
+      - "07 · HTTP & JSON": level-2/07-http-json.md
+      - "08 · Local Persistence": level-2/08-persistence.md
+      - "09 · Testing: Unit, Widget & Golden Tests": level-2/09-testing.md
+      - "10 · Project — A Reading List App": level-2/10-project-reading-list.md
+  - "Level 3 · Advanced":
+      - Overview: level-3/index.md
+      - "01 · Widgets, Elements & BuildContext": level-3/01-element-tree.md
+      - "02 · Animations: Implicit & Explicit": level-3/02-animations.md
+      - "03 · CustomPainter & Drawing": level-3/03-custom-painter.md
+      - "04 · Responsive & Adaptive Layouts": level-3/04-responsive.md
+      - "05 · Platform Channels": level-3/05-platform-channels.md
+      - "06 · Isolates & Heavy Work": level-3/06-isolates.md
+      - "07 · The Bloc Pattern": level-3/07-bloc.md
+      - "08 · Accessibility & Internationalization": level-3/08-a11y-i18n.md
+      - "09 · Integration Tests & Test Strategy": level-3/09-integration-tests.md
+      - "10 · Project — An Offline-First Habit Tracker": level-3/10-project-habit-tracker.md
+  - "Level 4 · Master":
+      - Overview: level-4/index.md
+      - "01 · The Rendering Pipeline & RenderObjects": level-4/01-rendering-pipeline.md
+      - "02 · Performance: Rebuilds, Jank & DevTools": level-4/02-performance.md
+      - "03 · App Architecture: Layers & Dependency Injection": level-4/03-architecture.md
+      - "04 · Configuration, Flavors & --dart-define": level-4/04-flavors-config.md
+      - "05 · CI for Flutter": level-4/05-ci.md
+      - "06 · Building & Publishing to the Stores": level-4/06-publishing.md
+      - "07 · Flutter on the Web & Desktop": level-4/07-web-desktop.md
+      - "08 · Plugins & dart:ffi": level-4/08-plugins-ffi.md
+      - "09 · Upgrades, Dependencies & Long-Lived Apps": level-4/09-upgrades.md
+      - "10 · Capstone — A Production-Ready Expense Tracker": level-4/10-capstone.md
