@@ -32,8 +32,8 @@ Three ideas carry this level:
 ## What you need before starting
 
 - [Level 2](../level-2/index.md): routing, a state-management approach, async UI and widget testing.
-- For lesson 05, reading knowledge of Kotlin or Swift helps; the [Kotlin](https://sigilipelli.github.io/kotlin-mastery-path/) and
-  [Swift](https://sigilipelli.github.io/swift-mastery-path/) courses cover the languages.
+- For lesson 05, reading knowledge of Kotlin or Swift helps; the [Kotlin](https://learnmasterypath.com/kotlin-mastery-path/) and
+  [Swift](https://learnmasterypath.com/swift-mastery-path/) courses cover the languages.
 
 ## How the examples were checked
 

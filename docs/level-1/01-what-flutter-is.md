@@ -194,7 +194,7 @@ goes through each phase in depth.
 - **"Rebuilding widgets is expensive, so avoid `build`."** Widgets are small immutable objects;
   creating thousands per frame is normal. What matters is not doing expensive *work* in `build`.
 - **"Dart is only for Flutter."** It's a general-purpose language — this course assumes you know
-  it from the [Dart Mastery Path](https://sigilipelli.github.io/dart-mastery-path/).
+  it from the [Dart Mastery Path](https://learnmasterypath.com/dart-mastery-path/).
 - **"Text widths in tests match the device."** The test font is a box font.
 
 ## Exercise

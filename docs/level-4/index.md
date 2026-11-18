@@ -32,7 +32,7 @@ Three ideas carry this level:
 
 - [Level 3](../level-3/index.md), or real-world Flutter experience.
 - For lessons 05 and 06, a GitHub account and familiarity with Git helps — see the
-  [GitHub & Git Mastery Path](https://sigilipelli.github.io/github-mastery-path/).
+  [GitHub & Git Mastery Path](https://learnmasterypath.com/github-mastery-path/).
 
 ## How the examples were checked
 

@@ -6,7 +6,7 @@ description: "Render asynchronous data with FutureBuilder and StreamBuilder: sna
 
 Most screens wait for something: a network response, a database query, a stream of location updates. Dart
 models these as `Future<T>` (one value, later) and `Stream<T>` (many values over time) — if those are new, the
-[Dart course](https://sigilipelli.github.io/dart-mastery-path/) covers them. Flutter's two built-in widgets for
+[Dart course](https://learnmasterypath.com/dart-mastery-path/) covers them. Flutter's two built-in widgets for
 turning them into UI are `FutureBuilder` and `StreamBuilder`. They're simple, and they have one trap that catches
 nearly everyone; this lesson walks into it on purpose.
 

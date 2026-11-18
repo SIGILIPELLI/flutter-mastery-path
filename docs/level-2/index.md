@@ -32,8 +32,8 @@ Three ideas carry this level:
 ## What you need before starting
 
 - [Level 1](../level-1/index.md), or equivalent experience: stateful widgets, layout, forms and lists.
-- Comfort with Dart `Future`s and `Stream`s ([Dart Mastery Path](https://sigilipelli.github.io/dart-mastery-path/)).
-- For lesson 07, the basics of HTTP and JSON APIs; the [REST API Mastery Path](https://sigilipelli.github.io/rest-api-mastery-path/)
+- Comfort with Dart `Future`s and `Stream`s ([Dart Mastery Path](https://learnmasterypath.com/dart-mastery-path/)).
+- For lesson 07, the basics of HTTP and JSON APIs; the [REST API Mastery Path](https://learnmasterypath.com/rest-api-mastery-path/)
   covers them.
 
 ## How the examples were checked

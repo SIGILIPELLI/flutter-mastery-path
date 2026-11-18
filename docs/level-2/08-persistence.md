@@ -197,7 +197,7 @@ future version: Unknown notes file version: 9
 JSON files load and save everything at once. When you need "the 20 most recent notes containing *milk*", or the data
 grows to thousands of records, use SQLite. `sqflite` gives you raw SQL; `drift` generates typed queries and
 migrations from Dart table definitions and can watch queries as streams, which fits nicely with `StreamBuilder` or
-Riverpod's `StreamProvider`. The SQL itself is covered in the [SQL course](https://sigilipelli.github.io/sql-mastery-path/).
+Riverpod's `StreamProvider`. The SQL itself is covered in the [SQL course](https://learnmasterypath.com/sql-mastery-path/).
 Both need a device, simulator, or desktop target to run (sqflite has a separate FFI variant for tests on desktop);
 the [Level 3 project](../level-3/10-project-habit-tracker.md) builds an offline-first store with a repository
 interface so the storage engine is swappable.

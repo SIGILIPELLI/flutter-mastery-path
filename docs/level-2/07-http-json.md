@@ -9,7 +9,7 @@ Most apps talk to a server. This lesson builds a small, typed API client for a b
 exception type the UI can handle, and tests all of it without touching the network. The design questions
 (timeouts, error mapping, where parsing happens) matter more than the specific package: `dio` is a popular
 alternative with interceptors built in, and the same structure applies. For REST concepts themselves, see the
-[REST API course](https://sigilipelli.github.io/rest-api-mastery-path/).
+[REST API course](https://learnmasterypath.com/rest-api-mastery-path/).
 
 ```bash
 flutter pub add http

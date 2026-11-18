@@ -32,7 +32,7 @@ Three ideas carry this level:
 ## What you need before starting
 
 - **Dart basics**: variables, functions, classes, null safety, `async`/`await`. The
-  [Dart Mastery Path](https://sigilipelli.github.io/dart-mastery-path/) covers all of it.
+  [Dart Mastery Path](https://learnmasterypath.com/dart-mastery-path/) covers all of it.
 - **Flutter SDK installed** (lesson 02 walks through `flutter doctor`). You can follow most of this level with only the SDK:
   widget tests run on your computer without a phone, emulator or simulator.
 
