@@ -57,9 +57,11 @@ markdown_extensions:
 extra_css:
   - stylesheets/extra.css
   - stylesheets/progress-tracker.css
+  - stylesheets/final-quiz.css
 
 extra_javascript:
   - javascripts/progress-tracker.js
+  - javascripts/final-quiz.js
 
 
 
@@ -123,3 +125,5 @@ nav:
       - "08 · Plugins & dart:ffi": level-4/08-plugins-ffi.md
       - "09 · Upgrades, Dependencies & Long-Lived Apps": level-4/09-upgrades.md
       - "10 · Capstone — A Production-Ready Expense Tracker": level-4/10-capstone.md
+  - "🎯 Final Quiz": quiz.md
+
