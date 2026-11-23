@@ -79,8 +79,8 @@ not_in_nav: |
 
 nav:
   - Home: index.md
-  - "💼 Interview Questions": interview-questions.md
-  - "📋 Cheat Sheet": cheat-sheet.md
+  - Interview Questions: interview-questions.md
+  - Cheat Sheet: cheat-sheet.md
   - "Level 1 · Entry":
       - Overview: level-1/index.md
       - "01 · What Flutter Is: Engine, Widgets & One Codebase": level-1/01-what-flutter-is.md
@@ -129,5 +129,5 @@ nav:
       - "08 · Plugins & dart:ffi": level-4/08-plugins-ffi.md
       - "09 · Upgrades, Dependencies & Long-Lived Apps": level-4/09-upgrades.md
       - "10 · Capstone — A Production-Ready Expense Tracker": level-4/10-capstone.md
-  - "🎯 Final Quiz": quiz.md
+  - Final Quiz: quiz.md
 
