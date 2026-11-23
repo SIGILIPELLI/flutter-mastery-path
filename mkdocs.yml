@@ -73,12 +73,14 @@ extra:
     - name: "React Native"
       url: https://learnmasterypath.com/react-native-mastery-path/
 
+not_in_nav: |
+  privacy.md
+  license.md
+
 nav:
   - Home: index.md
   - "💼 Interview Questions": interview-questions.md
   - "📋 Cheat Sheet": cheat-sheet.md
-  - Privacy Policy: privacy.md
-  - License: license.md
   - "Level 1 · Entry":
       - Overview: level-1/index.md
       - "01 · What Flutter Is: Engine, Widgets & One Codebase": level-1/01-what-flutter-is.md
