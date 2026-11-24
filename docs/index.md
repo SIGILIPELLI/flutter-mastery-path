@@ -1,6 +1,6 @@
 ---
 title: "Free Flutter Course: Widgets, Layout, State Management, Navigation, Testing, Animations, Platform Channels & Publishing"
-description: "Free Flutter course: 36 lessons and 4 projects on widgets, layout, Riverpod, Provider, Bloc, go_router, testing, animations, platform channels and shipping apps."
+description: "Free Flutter course: 36 lessons, 3 projects and 1 capstone on widgets, layout, Riverpod, Provider, Bloc, go_router, testing, animations, platform channels and shipping apps."
 ---
 
 # Flutter Mastery Path
